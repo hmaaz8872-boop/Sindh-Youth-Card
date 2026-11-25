@@ -1,0 +1,674 @@
+/* BASIC STYLING */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+
+    width: 100%;
+    height: 90px;
+
+    background-color: white;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 0 60px;
+
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+
+    position: fixed;
+
+}
+
+
+/* LOGO */
+
+.logo {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+}
+
+.logo img {
+
+    width: 55px;
+
+    height: 55px;
+
+    object-fit: contain;
+
+}
+
+.logo h2 {
+
+    font-size: 20px;
+
+    color: #087A45;
+
+}
+
+.logo p {
+
+    font-size: 12px;
+
+    color: #666;
+
+    margin-top: 5px;
+
+}
+
+
+/* NAVIGATION LINKS */
+
+.nav-links {
+
+    display: flex;
+
+    list-style: none;
+
+    gap: 30px;
+
+}
+
+.nav-links li a {
+
+    text-decoration: none;
+
+    color: #333;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+
+}
+
+.nav-links li a:hover {
+
+    color: #087A45;
+
+}
+
+
+/* REGISTER BUTTON */
+
+.nav-button a {
+
+    text-decoration: none;
+
+    background-color: #087A45;
+
+    color: white;
+
+    padding: 13px 22px;
+
+    border-radius: 5px;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+
+}
+
+.nav-button a:hover {
+
+    background-color: #075B35;
+
+}
+
+.main-section h1{
+    font-size: 50px;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cards{
+    display: flex;
+    gap: 50px;
+    margin-left: 70px;
+}
+
+.card-1{
+    background-color: gray;
+    border: 2px solid gray;
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.card-1 img{
+    margin-left: 35%;
+    margin-top: 20px;
+}
+
+.card-1 h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.card-1 button{
+    background-color: #087A45;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-1 button:hover{
+    background-color: #075B35;
+}
+
+.card-2{
+    background-color: gray;
+    border: 2px solid gray;
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.card-2 img{
+    margin-left: 35%;
+    margin-top: 20px;
+}
+
+.card-2 h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.card-2 button{
+    background-color: #087A45;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-2 button:hover{
+    background-color: #075B35;
+}
+
+.card-3{
+    background-color: gray;
+    border: 2px solid gray;
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.card-3 img{
+    margin-left: 35%;
+    margin-top: 20px;
+}
+
+.card-3 h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.card-3 button{
+    background-color: #087A45;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-3 button:hover{
+    background-color: #075B35;
+}
+
+.other{
+     display: flex;
+    gap: 50px;
+    margin-left: 70px;
+}
+
+.card-4{
+    background-color: gray;
+    border: 2px solid gray;
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.card-4 img{
+    margin-left: 35%;
+    margin-top: 20px;
+}
+
+.card-4 h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.card-4 button{
+    background-color: #087A45;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-4 button:hover{
+    background-color: #075B35;
+}
+
+.card-5{
+    background-color: gray;
+    border: 2px solid gray;
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.card-5 img{
+    margin-left: 35%;
+    margin-top: 20px;
+}
+
+.card-5 h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.card-5 button{
+    background-color: #087A45;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-5 button:hover{
+    background-color: #075B35;
+}
+
+.card-6{
+    background-color: gray;
+    border: 2px solid gray;
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.card-6 img{
+    margin-left: 35%;
+    margin-top: 20px;
+}
+
+.card-6 h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.card-6 button{
+    background-color: #087A45;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-6 button:hover{
+    background-color: #075B35;
+}
+
+/* WHO CAN APPLY SECTION */
+
+.apply-section {
+
+    width: 100%;
+
+    height: 158px;
+
+    background-color: #E2F5EB;
+
+    border-radius: 16px;
+
+    margin-top: 30px;
+
+    padding: 0 48px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+
+/* APPLY TEXT */
+
+.apply-text h1 {
+
+    font-size: 30px;
+
+    color: #087A45;
+
+    margin-bottom: 15px;
+
+}
+
+.apply-text p {
+
+    font-size: 18px;
+
+    color: #596579;
+
+}
+
+
+/* APPLY BUTTON */
+
+.apply-button a {
+
+    text-decoration: none;
+
+    background-color: #087A45;
+
+    color: white;
+
+    padding: 15px 33px;
+
+    border-radius: 30px;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+}
+
+.apply-button a:hover {
+
+    background-color: #075B35;
+
+}
+
+.generation{
+    display: flex;
+}
+
+.generation img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.writes h1{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100%;
+    font-size: 90px;
+}
+
+.writes p{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.writes button{
+      background-color: #087A45;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.writes button:hover{
+    background-color: #075B35;
+    transition: 0.5s;
+}
+
+.about{
+    background-color: #087A45;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.about h1{
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+.about h2{
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.about p{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.last{
+     background-color: #0B241E;
+     border: 2px solid black;
+     border-radius: 10px;
+     margin-top: 50px;
+}
+
+.last h1{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.last p{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.images{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    margin-left: 180px;
+    margin-bottom: 10px;
+}
+
+.last h2{
+font-size: 20px;
+margin-bottom: 10px;
+color: white;
+margin-top: 20px;
+text-align: center;
+}
+
+/* FOOTER SECTION */
+
+.footer {
+
+    width: 100%;
+
+    background-color: #0B241E;
+
+    color: white;
+
+    padding: 60px 60px 20px;
+
+}
+
+
+/* FOOTER CONTAINER */
+
+.footer-container {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    gap: 40px;
+
+    padding-bottom: 40px;
+
+}
+
+
+/* COLUMN 1 */
+
+.footer-about {
+
+    width: 280px;
+
+}
+
+.footer-about h2 {
+
+    color: #43C987;
+
+    font-size: 24px;
+
+    margin-bottom: 20px;
+
+}
+
+.footer-about p {
+
+    color: #B9C8C1;
+
+    font-size: 14px;
+
+    line-height: 25px;
+
+}
+
+
+/* COLUMN 2, 3 AND 4 */
+
+.footer-links,
+.footer-services,
+.footer-contact {
+
+    width: 220px;
+
+}
+
+
+.footer h3 {
+
+    font-size: 18px;
+
+    margin-bottom: 22px;
+
+    color: white;
+
+}
+
+
+/* FOOTER LINKS */
+
+.footer ul {
+
+    list-style: none;
+
+}
+
+.footer ul li {
+
+    margin-bottom: 15px;
+
+}
+
+.footer ul li a {
+
+    text-decoration: none;
+
+    color: #B9C8C1;
+
+    font-size: 14px;
+
+    transition: 0.3s;
+
+}
+
+.footer ul li a:hover {
+
+    color: #43C987;
+
+}
+
+
+/* CONTACT INFORMATION */
+
+.footer-contact p {
+
+    color: #B9C8C1;
+
+    font-size: 14px;
+
+    margin-bottom: 18px;
+
+}
+
+
+/* FOOTER BOTTOM */
+
+.footer-bottom {
+
+    border-top: 1px solid #355047;
+
+    padding-top: 22px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+.footer-bottom p {
+
+    color: #AABAB3;
+
+    font-size: 13px;
+
+}
